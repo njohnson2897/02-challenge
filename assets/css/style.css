@@ -22,6 +22,8 @@
 .nav ul li {
     display: inline;
     text-decoration: none;
+    border:solid black;
+    padding: 3px;
 }
 
 .sidebar {
@@ -30,4 +32,16 @@
     height: 800px;
     text-align: center;
     padding-top: 20px;
+    float:left;
+}
+
+.about-me {
+    width: 80%;
+    background-color: cadetblue;
+    float: right;
+}
+
+#my-photo {
+    width:  20%;
+    float: left;
 }
