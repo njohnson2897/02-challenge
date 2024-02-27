@@ -1,0 +1,26 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    font-size: 30px;
+    color: darkblue;
+    width:  80%;
+    text-align: center;
+    background-color: brown;
+    display: inline-block
+}
+
+.nav {
+    font-size: 18px;
+    background-color: aquamarine;
+    width: 20%;
+    float: right;
+    height: 148px
+}
+
+.nav ul li {
+    display: inline;
+    text-decoration: none;
+    font-size
+}
