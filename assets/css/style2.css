@@ -1,0 +1,80 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    width:30%;
+    font-size: 3rem;
+}
+
+nav{
+    width:65%
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+nav ul li{
+    font-size: 2rem;
+}
+
+main{
+    margin: 2%;
+    padding: 5%;
+}
+
+.row{
+    display: flex;
+    gap:3%;
+    padding-bottom: 5%;
+    margin-bottom:4%;
+    justify-content: space-evenly;
+}
+
+.side-header {
+    width: 20%;
+    text-align: right;
+    padding:5%;
+    border-right: 10px solid grey;
+}
+
+.section-content {
+    width: 75%;
+    display: flex;
+    gap:2%;
+}
+.headshot{
+    width:50%;
+}
+.headshot img{
+    border-radius: 15px;
+    width:100%;
+}
+.section-content section p{
+    letter-spacing: 2px;
+}
+
+.projects {
+    width: 45%;
+    max-width: 45%;
+}
+
+#project-cards {
+    flex-wrap: wrap;
+}
+
+.projects a img{
+    width:100%;
+}
+
+#main-project{
+    width:90%;
+}
