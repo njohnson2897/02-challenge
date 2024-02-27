@@ -29,7 +29,7 @@
 .sidebar {
     width: 20%;
     background-color: blueviolet;
-    height: 1000px;
+    height: 777px;
     text-align: center;
     padding-top: 20px;
     float:left;
@@ -48,7 +48,7 @@
 
 #main-project {
     width: 49%;
-    height: 508px;
+    height: 530px;
     float:right;
 }
 
@@ -56,10 +56,23 @@
     width: 80%;
     background-color: cornflowerblue;
     float:right;
-
 }
 
 .my-projects img {
     width: 25%;
     display: inline-block;
+}
+
+.contact-me {
+    background-color: deepskyblue;
+    width: 80%;
+    float:right;
+}
+
+.contact-me ul li {
+    text-decoration: none;
+    display: inline;
+    border: solid black;
+    margin: 20px;
+    padding: 3px;
 }
