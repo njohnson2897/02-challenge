@@ -47,9 +47,10 @@ main{
 /* establishes, spacing, and alignment of the three sidebar classes */
 .sidebar {
     width: 10%;
-    text-align: right;
+    text-align: center;
     padding:5%;
     border-right: 10px solid grey;
+    font-size: 1.5rem;
 }
 
 /* establishes size and spacing for three main content sections and makes children elements flex items */
