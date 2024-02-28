@@ -30,11 +30,11 @@ nav ul li{
     font-size: 2rem;
     padding-top: 10%;
 }
-
+/* adds hover effects to contact me and nav sections */
 nav ul li:hover, .contact-info a:hover{
     transform:scale(1.2)
 }
-
+/* general styling of entire main section */
 main{
     margin: 2%;
     padding: 5%;
@@ -83,24 +83,24 @@ main{
     gap: 2%;
 }
 
-#later-projects img:hover, #more-projects img:hover, #first-project img:hover{
-    border: 3px solid red;
-}
-
+/* singles out the container for the last two project cards to alter flex-direction behavior */
 #more-projects {
     display: flex;
     flex-direction: row;
     gap: 2%;
 }
 
-
+/* adds hover effects to the project cards in projects section */
+#later-projects img:hover, #more-projects img:hover, #first-project img:hover{
+    border: 3px solid red;
+}
 
 .project-cards {
     flex-wrap: wrap;
     width: 50%;
     max-width: 50%;
 }
-
+/* gives a border to project cards and ensures they take up 100% of space allotted to them */
 .project-cards img{
     width: 100%;
     height: 100%;
@@ -141,4 +141,16 @@ main{
     border-radius: 15px;
     text-align: center;
     font-size: 2rem;
+}
+/* changes the project cards to wrap in a column again when screen gets below 810px wide */
+@media screen and (max-width: 810px){
+    #more-projects{
+        flex-direction:column;
+    }
+}
+
+@media screen and (max-width: 810px){
+    #later-projects{
+        flex-direction:column;
+    }
 }
