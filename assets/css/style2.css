@@ -142,14 +142,14 @@ main{
     text-align: center;
     font-size: 2rem;
 }
-/* changes the project cards to wrap in a column again when screen gets below 810px wide */
-@media screen and (max-width: 810px){
+/* changes the project cards to wrap in a column again when screen gets below 700px wide */
+@media screen and (max-width: 700px){
     #more-projects{
         flex-direction:column;
     }
 }
 
-@media screen and (max-width: 810px){
+@media screen and (max-width: 700px){
     #later-projects{
         flex-direction:column;
     }
