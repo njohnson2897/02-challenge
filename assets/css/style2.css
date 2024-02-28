@@ -28,7 +28,6 @@ nav ul{
 
 nav ul li{
     font-size: 2rem;
-    padding-top: 10%;
 }
 /* adds hover effects to contact me and nav sections */
 nav ul li:hover, .contact-info a:hover{
@@ -47,7 +46,6 @@ main{
     gap:3%;
     padding-bottom: 4%;
     margin-bottom:3%;
-    justify-content: space-evenly;
 }
 /* establishes, spacing, and alignment of the three sidebar classes */
 .sidebar {
@@ -68,7 +66,6 @@ main{
 /* causes headshot to take up 50% of parent container */
 #my-pictures{
     display: flex;
-    flex-direction: row;
     width: 50%;
 }
 /* causes actual headshot image to take up 100% of space allotted from parent section and styles edges */
@@ -80,14 +77,12 @@ main{
 /*this ID and the one below it return the flex-direction to row so that the project cards below the main project form a 2x2 grid */
 #later-projects {
     display: flex;
-    flex-direction: row;
     gap: 2%;
 }
 
 /* singles out the container for the last two project cards to alter flex-direction behavior */
 #more-projects {
     display: flex;
-    flex-direction: row;
     gap: 2%;
 }
 
@@ -97,9 +92,7 @@ main{
 }
 
 .project-cards {
-    flex-wrap: wrap;
     width: 50%;
-    max-width: 50%;
 }
 /* gives a border to project cards and ensures they take up 100% of space allotted to them */
 .project-cards img{
@@ -108,11 +101,7 @@ main{
     border-radius: 15px;
     border: 3px solid black;
 }
-/* styles the container for the prework study guide project */
-#first-project {
-    width: 100%;
-    height: 100%;
-}
+
 /* sizes and styles the prework study guide project */
 #first-project img{
     flex-wrap: wrap;
