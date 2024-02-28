@@ -11,7 +11,8 @@ header{
 .header h1{
     width:20%;
     font-size: 3rem;
-    text-align: right;
+    text-align: center;
+    border: dashed black
 }
 
 nav{
@@ -27,6 +28,7 @@ nav ul{
 
 nav ul li{
     font-size: 2rem;
+    padding-top: 10%;
 }
 
 main{
@@ -49,6 +51,7 @@ main{
     padding:5%;
     border-right: 10px solid grey;
 }
+
 /* establishes size and spacing for three main content sections and makes children elements flex items */
 .section-content {
     display: flex;
@@ -109,18 +112,13 @@ main{
 /* Formats the shape and alignment of the contact me section */
 .contact-info{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
+    justify-content: space-between;
+    padding-top: 10%
 }
 /* Formats the links found in the contact me section */
 .contact-info a{
-    justify-content: space-between;
-    width: 25%;
     text-decoration: none;
     font-size: 2rem;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 /* Formats the titles of the project cards in the main section */
