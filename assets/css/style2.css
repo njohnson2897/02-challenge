@@ -1,13 +1,13 @@
 * {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(155, 226, 204);
+    background-color: rgb(153, 209, 191);
     color: black;
 }
-
+/* Sets all sections in the header to be flex items */
 header{
     display:flex;
 }
-
+/* Sets the width, font size, and alignment of the name section */
 .header h1{
     width:20%;
     font-size: 3rem;
@@ -17,6 +17,7 @@ header{
 nav{
     width:70%;
 }
+/* Formats and aligns the content in the nav and makes the list items flex items */
 nav ul{
     list-style: none;
     display: flex;
@@ -32,7 +33,8 @@ main{
     margin: 2%;
     padding: 5%;
 }
-
+/* for every section in the row class, determines the spacing and makes the children elements flex items.
+    Sangeetha, one of the tutors, helped me set up the page in this row format rather than how I had it previously */
 .row{
     display: flex;
     gap:3%;
@@ -40,25 +42,43 @@ main{
     margin-bottom:3%;
     justify-content: space-evenly;
 }
-
-.side-header {
+/* establishes, spacing, and alignment of the three sidebar classes */
+.sidebar {
     width: 10%;
     text-align: right;
     padding:5%;
     border-right: 10px solid grey;
 }
-
+/* establishes size and spacing for three main content sections and makes children elements flex items */
 .section-content {
-    width: 85%;
     display: flex;
+    flex-direction: column;
+    width: 85%;
     gap:2%;
 }
-.headshot{
-    width:50%;
+/* causes headshot to take up 50% of parent container */
+#my-pictures{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
 }
-.headshot img{
+/* causes actual headshot image to take up 100% of space allotted from parent section and styles edges */
+#my-pictures img{
     border-radius: 15px;
+    border: 3px solid black;
     width:100%;
+}
+/*this ID and the one below it return the flex-direction to row so that the project cards below the main project form a 2x2 grid */
+#later-projects {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+#more-projects {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
 }
 
 .project-cards {
@@ -71,40 +91,45 @@ main{
     width: 100%;
     height: 100%;
     border-radius: 15px;
+    border: 3px solid black;
 }
-
-.main-project {
-    flex-wrap: wrap;
+/* styles the container for the prework study guide project */
+#first-project {
     width: 100%;
     height: 100%;
 }
-
-.main-project img{
+/* sizes and styles the prework study guide project */
+#first-project img{
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
     border-radius: 15px;
+    border: 3px solid black;
 }
-
+/* Formats the shape and alignment of the contact me section */
 .contact-info{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     align-items: center;
 }
-
+/* Formats the links found in the contact me section */
 .contact-info a{
     justify-content: space-between;
-    width: 20%;
+    width: 25%;
     text-decoration: none;
-    font-size: 3rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    font-size: 2rem;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
+/* Formats the titles of the project cards in the main section */
 .section-content h4 {
     position: relative;
-    bottom: 45px;
-    border: 2px solid black;
+    bottom: 85px;
+    left: 3px;
+    border: 3px solid black;
     border-radius: 15px;
     text-align: center;
+    font-size: 2rem;
 }
