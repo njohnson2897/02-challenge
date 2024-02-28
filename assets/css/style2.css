@@ -31,6 +31,10 @@ nav ul li{
     padding-top: 10%;
 }
 
+nav ul li:hover{
+    transform:scale(1.2)
+}
+
 main{
     margin: 2%;
     padding: 5%;
@@ -118,8 +122,11 @@ main{
 }
 /* Formats the links found in the contact me section */
 .contact-info a{
-    text-decoration: none;
     font-size: 2rem;
+}
+
+.contact-info a:hover{
+    transform:scale(1.2)
 }
 
 /* Formats the titles of the project cards in the main section */
