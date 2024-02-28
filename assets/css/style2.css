@@ -6,13 +6,13 @@
 /* Sets all sections in the header to be flex items */
 header{
     display:flex;
+    border-bottom: 10px solid gray;
 }
 /* Sets the width, font size, and alignment of the name section */
 .header h1{
     width:20%;
     font-size: 3rem;
     text-align: center;
-    border: dashed black
 }
 
 nav{
@@ -83,11 +83,17 @@ main{
     gap: 2%;
 }
 
+#later-projects img:hover, #more-projects img:hover, #first-project img:hover{
+    border: 3px solid red;
+}
+
 #more-projects {
     display: flex;
     flex-direction: row;
     gap: 2%;
 }
+
+
 
 .project-cards {
     flex-wrap: wrap;
@@ -114,6 +120,7 @@ main{
     border-radius: 15px;
     border: 3px solid black;
 }
+
 /* Formats the shape and alignment of the contact me section */
 .contact-info{
     display: flex;
