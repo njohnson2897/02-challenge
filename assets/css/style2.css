@@ -40,7 +40,8 @@ main{
     padding: 5%;
 }
 /* for every section in the row class, determines the spacing and makes the children elements flex items.
-    Sangeetha, one of the tutors, helped me set up the page in this row format rather than how I had it previously */
+    Sangeetha, one of the tutors, helped me set up the page in this row format and how to use the gap function
+    to style the gutters between rows rather than how I had it previously */
 .row{
     display: flex;
     gap:3%;

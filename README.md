@@ -6,9 +6,9 @@ This project involved the creation of a webpage that would serve as my own perso
 N/A
 
 ## Usage
-To view the portfolio, follow [this link](https://njohnson2897.github.io/horiseon-refactor/)
+To view the portfolio, follow [this link](https://njohnson2897.github.io/my-portfolio/)
 
 The following screenshot demonstrates what the portfolio should look like in a browser:
-![horiseon webpage screenshot](./assets/images/horiseon-screenshot.PNG)
+![portfolio webpage screenshot](./assets/images/portfolio-screenshot.JPG)
 
 ## Credits
